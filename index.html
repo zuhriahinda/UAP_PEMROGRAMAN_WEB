@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAP PEMROGRAMAN WEBSITE</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <table border>
+      <tr>
+        <th>Kode</th>
+        <th>Barang</th>
+        <th>Harga</th>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>Barang A</td>
+        <td>10.000</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Barang B</td>
+        <td>20.000</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Barang C</td>
+        <td>30.000</td>
+      </tr>
+    </table>
+    <br />
+
+    <h1>Input User</h1>
+
+    <table border>
+      <tr>
+        <td>Masukkan Kode</td>
+        <td>:</td>
+        <td><input type="text" id="kodeBarang" required /></td>
+      </tr>
+      <tr>
+        <td>Banyaknya Barang</td>
+        <td>:</td>
+        <td><input type="number" id="banyakBarang" required /></td>
+      </tr>
+      <tr>
+        <td>
+          <button type="button" onclick="handleFormSubmit()">Submit</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
